@@ -32,6 +32,7 @@ def add_thread(thread_id):
         st.session_state["chat_threads"].append(thread_id)
 
 
+
 # Create a completely new chat conversation
 def reset_chat():
 

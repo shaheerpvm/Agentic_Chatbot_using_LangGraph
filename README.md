@@ -70,7 +70,7 @@ AWS_ACCESS_KEY_ID=your-aws-access-key
 
 AWS_SECRET_ACCESS_KEY=your-aws-secret-key
 
-AWS_REGION=us-east-1
+AWS_REGION=ap-south-1
 
 OPENAI_API_KEY=your-openai-api-key
 

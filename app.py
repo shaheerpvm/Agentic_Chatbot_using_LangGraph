@@ -711,6 +711,7 @@ if user_input:
         "content": ai_message
     })
 
+
     # ========================= HITL ADDED =========================
 
     # Approval controls are rendered earlier in the script.

@@ -66,7 +66,7 @@ def get_retriever():
 
 
 
-# rag tool
+# rag tools
 
 @tool
 def rag_tool(query: str) -> str:

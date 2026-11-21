@@ -18,19 +18,21 @@ from langchain_community.vectorstores import FAISS
 import os 
 from typing import Any
 from langgraph.types import interrupt, Command
+from langchain_openai import ChatOpenAI
 
 
 load_dotenv()
 
 
-# LLM 
-llm = ChatGoogleGenerativeAI(
-    model="gemini-3.8-flash",
-    temperature=0.7
+# # LLM 
+llm = ChatOpenAI(
+    model="gpt-5.5",
+    max_retries=3
 )
 
 
-# Embeddings model
+
+# Embeddings models
 embeddings = GoogleGenerativeAIEmbeddings(model="gemini-embedding-001")
 
 
